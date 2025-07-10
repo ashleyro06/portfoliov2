@@ -3,6 +3,7 @@ import type { Collections } from '@nuxt/content'
 import SummaryCard from '../project/SummaryCard.vue'
 
 const { locale } = useI18n()
+const localePath = useLocalePath()
 
 const { data: projects } = await useAsyncData('projects', async () => {
   const collection = ('projects_' + locale.value) as keyof Collections
@@ -24,7 +25,8 @@ const { data: projects } = await useAsyncData('projects', async () => {
         :project="project"
       />
     </div>
-    <NuxtLinkLocale to="/works">
+
+    <NuxtLinkLocale :to="localePath('works')">
       <span class="font-newsreader italic text-white-shadow cursor-pointer">
         {{ $t("global.see_more") }}
       </span>
