@@ -1,0 +1,11 @@
+{
+  "name": "h2pro3",
+  "image": "/projects/h2pro3.svg",
+  "description": "Social network built for a company in Germany. It is inspired on instagram and tinder to help businesses find investors and people interested in the same topics.",
+  "platforms": ["mobile"],
+  "stack": [
+    { "name": "Flutter", "icon": "custom:flutter" },
+    { "name": "Firebase", "icon": "custom:firebase" }
+  ],
+  "role": ["Mobile Developer"]
+}

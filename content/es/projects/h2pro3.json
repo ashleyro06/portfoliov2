@@ -1,0 +1,13 @@
+{
+  "name": "h2pro3",
+  "image": "/projects/h2pro3.svg",
+  "description": "Red social desarrollada para una empresa en Alemania, inspirada en Instagram y Tinder. Su objetivo es ayudar a las empresas a encontrar inversionistas y personas interesadas en los mismos temas.",
+  "platforms": ["móvil"],
+  "stack": [
+    { "name": "Flutter", "icon": "custom:flutter" },
+    { "name": "Firebase", "icon": "custom:firebase" }
+  ],
+  "role": [
+    "Desarrolladora Móvil"
+  ]
+}

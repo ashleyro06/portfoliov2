@@ -5,17 +5,17 @@ const currentAvailability = computed(() => {
   return [
     {
       status: 'available',
-      message: 'Available for hire',
-      color: 'bg-green-600/80',
-      bgColor: 'bg-green-500/80',
-      textColor: 'text-green-500/80',
+      message: 'Available for new opportunities',
+      color: 'bg-cyan-400/80',
+      bgColor: 'bg-cyan-500/90',
+      textColor: 'text-cyan-400',
     },
     {
       status: 'unavailable',
-      message: 'Not available for hire',
-      color: 'bg-red-500',
-      bgColor: 'bg-red-400',
-      textColor: 'text-red-400',
+      message: 'Currently not available',
+      color: 'bg-slate-500/80',
+      bgColor: 'bg-slate-600/80',
+      textColor: 'text-slate-400',
     },
   ][appConfig.available ? 0 : 1]
 })
@@ -31,7 +31,10 @@ defineProps({
 <template>
   <div
     class="flex items-center rounded-full"
-    :class="{ 'border border-white/10 bg-zinc-900/80 px-5 py-2 backdrop-blur-3xl': background }"
+    :class="{
+      'border border-white/10 bg-zinc-900/80 px-5 py-2 backdrop-blur-3xl':
+        background,
+    }"
   >
     <span class="relative flex size-3">
       <span
@@ -47,7 +50,7 @@ defineProps({
       class="ml-2 text-sm font-medium"
       :class="currentAvailability!.textColor"
     >
-      {{ $t("global." + currentAvailability!.status) }}
+      {{ currentAvailability!.message }}
     </span>
   </div>
 </template>

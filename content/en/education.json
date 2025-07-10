@@ -1,0 +1,33 @@
+{
+  "education": [
+    {
+      "degree": "Systems Engineering",
+      "institution": "Universidad Cooperativa de Colombia",
+      "period": "2016 – 2021",
+      "location": "Colombia",
+      "achievements": [
+        "Graduated with distinction (GPA: 4.55)",
+        "Top academic average (2017–2020)",
+        "Winner of multiple programming competitions"
+      ]
+    },
+    {
+      "degree": "Visual Design",
+      "institution": "Fundación Universitaria Compensar",
+      "period": "2024 – Present",
+      "location": "Colombia",
+      "achievements": [
+        "Currently enrolled — GPA: 4.9"
+      ]
+    },
+    {
+      "degree": "English",
+      "institution": "English and French Institute",
+      "period": "2016",
+      "location": "Colombia",
+      "achievements": [
+        "Completed 416 hours of English instruction"
+      ]
+    }
+  ]
+}

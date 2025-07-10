@@ -1,10 +1,6 @@
 <script setup lang="ts">
 const socialMediaRegexMap = [
-  { regex: /github\.com/, name: 'GitHub', icon: 'custom:github' },
-  { regex: /twitter\.com/, name: 'X / Twitter', icon: 'custom:x' },
   { regex: /linkedin\.com/, name: 'LinkedIn', icon: 'custom:linkedin' },
-  { regex: /instagram\.com/, name: 'Instagram', icon: 'custom:instagram' },
-  { regex: /spotify\.com/, name: 'Spotify', icon: 'custom:spotify' },
 ]
 
 const { socials } = useAppConfig()
@@ -17,7 +13,7 @@ const mappedSocials = Object.values(socials).map((link) => {
 </script>
 
 <template>
-  <div class="my-7 flex items-center justify-center gap-6 sm:gap-10">
+  <div class="my-7 flex items-center justify-center gap-6 sm:gap-10  xl:justify-start">
     <NuxtLink
       v-for="social in mappedSocials"
       :key="social.name"

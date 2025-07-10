@@ -1,0 +1,33 @@
+{
+  "educacion": [
+    {
+      "titulo": "Ingeniería de Sistemas",
+      "institucion": "Universidad Cooperativa de Colombia",
+      "periodo": "2016 – 2021",
+      "ubicacion": "Colombia",
+      "logros": [
+        "Graduada con distinción (Promedio: 4.55)",
+        "Mejor promedio académico (2017–2020)",
+        "Ganadora de múltiples concursos de programación"
+      ]
+    },
+    {
+      "titulo": "Diseño Visual",
+      "institucion": "Fundación Universitaria Compensar",
+      "periodo": "2024 – Actualidad",
+      "ubicacion": "Colombia",
+      "logros": [
+        "Actualmente cursando — Promedio: 4.9"
+      ]
+    },
+    {
+      "titulo": "Inglés",
+      "institucion": "Instituto de Inglés y Francés",
+      "periodo": "2016",
+      "ubicacion": "Colombia",
+      "logros": [
+        "416 horas completadas de formación en inglés"
+      ]
+    }
+  ]
+}

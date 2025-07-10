@@ -1,0 +1,16 @@
+{
+  "name": "Gobierno Contigo",
+  "image": "/projects/gobierno.svg",
+  "featured": true,
+  "description": "A mobile application for the citizen of Villavicencio that allows them to report different types of incidents in the city, they are assigned to a dependency that will carry out the process to fix the report. In the administrative page, the mayor and all the dependencies can have control over the reports made in the application, allowing them to make an answer and contact the one who made it.",
+  "platforms": ["web", "mobile"],
+  "stack": [
+    { "name": "VueJS", "icon": "custom:vue" },
+    { "name": "Flutter", "icon": "custom:flutter" },
+    { "name": "GetX", "icon": "custom:getx" },
+    { "name": "Google Maps", "icon": "custom:maps" }
+  ],
+  "role": [
+    "Project Leader", "Front-end Developer"
+  ]
+}

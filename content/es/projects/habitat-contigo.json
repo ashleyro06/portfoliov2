@@ -1,0 +1,14 @@
+{
+  "name": "Hábitat Contigo",
+  "image": "/projects/habitat.svg",
+  "featured": true,
+  "description": "Una página web para compartir información sobre edificaciones legales e ilegales, mostrando su ubicación en un mapa. Cuenta con un módulo administrativo que permite actualizar los datos y hacer todo el contenido dinámico.",
+  "platforms": ["web"],
+  "stack": [
+    { "name": "VueJS", "icon": "custom:vue" },
+    { "name": "Google Maps", "icon": "custom:maps" }
+  ],
+  "role": [
+    "Líder de proyecto", "Desarrolladora Front-end"
+  ]
+}

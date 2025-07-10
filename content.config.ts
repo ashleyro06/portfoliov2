@@ -18,10 +18,17 @@ const commonArticleSchema = z.object({
 
 const commonProjectSchema = z.object({
   name: z.string().nonempty(),
-  image: z.string().url(),
-  link: z.string().url(),
-  release: z.string().nonempty(),
-  date: z.string().nonempty(),
+  image: z.string().nonempty(), // Use .url() only if it's a full URL; keep as .nonempty() for relative paths
+  description: z.string().nonempty(),
+  platforms: z.array(z.enum(['web', 'mobile'])).nonempty(),
+  stack: z.array(
+    z.object({
+      name: z.string().nonempty(),
+      icon: z.string().nonempty(),
+    }),
+  ),
+  role: z.array(z.string().nonempty()).nonempty(),
+
   featured: z.boolean().optional(),
 })
 
@@ -30,13 +37,51 @@ const commonFaqSchema = z.object({
   subtitle: z.string().nonempty(),
   faqQuestions: z.array(
     z.object({
-      title: z.string().nonempty(),
+      icon: z.string().nonempty(),
       questions: z.array(
         z.object({
           label: z.string().nonempty(),
           content: z.string().nonempty(),
         }),
       ),
+    }),
+  ),
+})
+
+const commonFunFactSchema = z.object({
+  funFacts: z.array(
+    z.object({
+      icon: z.string().nonempty(),
+      fact: z.string().nonempty(),
+    }),
+  ),
+})
+
+const commonExperienceSchema = z.object({
+  experience: z.array(
+    z.object({
+      title: z.string().nonempty(),
+      company: z.string().nonempty(),
+      period: z.string().nonempty(),
+      description: z.array(z.string().nonempty()),
+      technologies: z.array(
+        z.object({
+          name: z.string().nonempty(),
+          icon: z.string().nonempty(),
+        }),
+      ),
+    }),
+  ),
+})
+
+const commonEducationSchema = z.object({
+  education: z.array(
+    z.object({
+      degree: z.string().nonempty(),
+      institution: z.string().nonempty(),
+      period: z.string().nonempty(),
+      location: z.string().nonempty(),
+      achievements: z.array(z.string().nonempty()),
     }),
   ),
 })
@@ -53,13 +98,13 @@ export const collections = {
       schema: commonContentSchema,
     }),
   ),
-  content_fr: defineCollection(
+  content_es: defineCollection(
     asSeoCollection({
       type: 'page',
       source: {
-        include: 'fr/**/*.md',
-        exclude: ['fr/articles/*.md'],
-        prefix: '/fr',
+        include: 'es/**/*.md',
+        exclude: ['es/articles/*.md'],
+        prefix: '/es',
       },
       schema: commonContentSchema,
     }),
@@ -74,12 +119,12 @@ export const collections = {
       schema: commonArticleSchema,
     }),
   ),
-  articles_fr: defineCollection(
+  articles_es: defineCollection(
     asSeoCollection({
       type: 'page',
       source: {
-        include: 'fr/articles/*.md',
-        prefix: '/fr/articles',
+        include: 'es/articles/*.md',
+        prefix: '/es/articles',
       },
       schema: commonArticleSchema,
     }),
@@ -91,10 +136,10 @@ export const collections = {
       schema: commonProjectSchema,
     }),
   ),
-  projects_fr: defineCollection(
+  projects_es: defineCollection(
     asSeoCollection({
       type: 'data',
-      source: 'fr/projects/*.json',
+      source: 'es/projects/*.json',
       schema: commonProjectSchema,
     }),
   ),
@@ -116,9 +161,39 @@ export const collections = {
     source: 'en/faq.json',
     schema: commonFaqSchema,
   }),
-  faq_fr: defineCollection({
+  faq_es: defineCollection({
     type: 'data',
-    source: 'fr/faq.json',
+    source: 'es/faq.json',
     schema: commonFaqSchema,
+  }),
+  fun_facts_en: defineCollection({
+    type: 'data',
+    source: 'en/funFacts.json',
+    schema: commonFunFactSchema,
+  }),
+  fun_facts_es: defineCollection({
+    type: 'data',
+    source: 'es/funFacts.json',
+    schema: commonFunFactSchema,
+  }),
+  experiences_en: defineCollection({
+    type: 'data',
+    source: 'en/experiences.json',
+    schema: commonExperienceSchema,
+  }),
+  experiences_es: defineCollection({
+    type: 'data',
+    source: 'es/experiences.json',
+    schema: commonExperienceSchema,
+  }),
+  education_en: defineCollection({
+    type: 'data',
+    source: 'en/education.json',
+    schema: commonEducationSchema,
+  }),
+  education_es: defineCollection({
+    type: 'data',
+    source: 'es/education.json',
+    schema: commonEducationSchema,
   }),
 }

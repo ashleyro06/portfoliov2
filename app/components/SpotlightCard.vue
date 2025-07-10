@@ -76,7 +76,7 @@ const spotlightColorStops = [props.from, props.via, props.to].filter(value => !!
     <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-white/50 to-transparent" />
 
     <!-- background -->
-    <div class="absolute inset-px rounded-lg bg-zinc-950" />
+    <div class="absolute inset-px rounded-lg bg-cyan-900" />
 
     <!-- inner light -->
     <div class="absolute inset-0 bg-[radial-gradient(40%_128px_at_50%_0%,theme(backgroundColor.white/5%),transparent)]" />

@@ -1,0 +1,14 @@
+{
+  "name": "Hábitat Contigo",
+  "image": "/projects/habitat.svg",
+  "featured": true,
+  "description": "A webpage for sharing ilegal and legal buildings showing its location in a map. It was structured with an administrative module that allows updating the data and making everything dynamic.",
+  "platforms": ["web"],
+  "stack": [
+    { "name": "VueJS", "icon": "custom:vue" },
+    { "name": "Google Maps", "icon": "custom:maps" }
+  ],
+  "role": [
+    "Project Leader", "Front-End Developer"
+  ]
+}

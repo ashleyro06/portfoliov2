@@ -1,0 +1,13 @@
+{
+  "name": "Intranet",
+  "image": "/projects/intranet.svg",
+  "description": "Plataforma interna desarrollada para una empresa para gestionar tareas de empleados, tickets de soporte y control de tiempos. Diseñada como una intranet privada, centraliza las operaciones y mejora la comunicación entre departamentos.",
+  "platforms": ["web"],
+  "stack": [
+    { "name": "ReactJS", "icon": "custom:react" },
+    { "name": "Laravel", "icon": "custom:laravel" }
+  ],
+  "role": [
+    "Desarrolladora full-stack"
+  ]
+}

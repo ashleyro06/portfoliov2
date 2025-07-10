@@ -1,0 +1,97 @@
+{
+  "experience": [
+    {
+      "title": "Full-Stack Developer",
+      "company": "GoodRec",
+      "period": "Sep 2023 – Present",
+      "description": [
+        "Built internal chat systems and management modules",
+        "Created an MVP in Flutter for potential tech migration",
+        "Developing new user-facing features and optimizing backend",
+        "Actively contributing to the system migration process"
+      ],
+      "technologies": [
+        { "name": "VueJS", "icon": "custom:vue" },
+        { "name": "NodeJS", "icon": "custom:node" },
+        { "name": "Firebase", "icon": "custom:firebase" },
+        { "name": "MongoDB", "icon": "custom:mongodb" },
+        { "name": "Flutter", "icon": "custom:flutter" },
+        { "name": "PostgreSQL", "icon": "custom:postgres" },
+        { "name": "AWS", "icon": "custom:aws" },
+        { "name": "Retool", "icon": "custom:retool" }
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "Kiwi",
+      "period": "Mar 2022 – Sep 2023",
+      "description": [
+        "Built MVP for Skoren using React",
+        "Contributed to the main product and built an internal tool",
+        "Developed a referral system including backend APIs"
+      ],
+      "technologies": [
+        { "name": "React", "icon": "custom:react" },
+        { "name": "Node.js", "icon": "custom:node" },
+        { "name": "Firebase", "icon": "custom:firebase" },
+        { "name": "PostgreSQL", "icon": "custom:postgres" }
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "Komercia",
+      "period": "Nov 2021 – Mar 2022",
+      "description": [
+        "Developed a support module",
+        "Integrated local shipping services into the product"
+      ],
+      "technologies": [
+        { "name": "Django", "icon": "custom:django" },
+        { "name": "VueJS", "icon": "custom:vue" }
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "Helix | Altix",
+      "period": "May 2021 – Nov 2021",
+      "description": [
+        "Built a mobile app in Flutter for a German company",
+        "Created an internal business management web app",
+        "Worked on websites for NOIRLab (USA)"
+      ],
+      "technologies": [
+        { "name": "Flutter", "icon": "custom:flutter" },
+        { "name": "React", "icon": "custom:react" },
+        { "name": "Laravel", "icon": "custom:laravel" },
+        { "name": "Django", "icon": "custom:django" }
+      ]
+    },
+    {
+      "title": "Front-End Developer",
+      "company": "Alcaldía de Villavicencio",
+      "period": "Sep 2020 – Sep 2021",
+      "description": [
+        "Designed web and mobile apps for public and internal use",
+        "Focused on user-friendly, responsive interfaces"
+      ],
+      "technologies": [
+        { "name": "VueJS", "icon": "custom:vue" },
+        { "name": "Flutter", "icon": "custom:flutter" }
+      ]
+    },
+    {
+      "title": "Full-Stack Developer",
+      "company": "Gyro Construcciones S.A.S",
+      "period": "Mar 2018 – Sep 2020",
+      "description": [
+        "Built landing page and internal staff tools",
+        "Developed an employee management module and inventory system",
+        "Integrated Slack and deployed apps to DigitalOcean"
+      ],
+      "technologies": [
+        { "name": "VueJS", "icon": "custom:vue" },
+        { "name": "NodeJS", "icon": "custom:node" }
+      ]
+    }
+  ]
+}

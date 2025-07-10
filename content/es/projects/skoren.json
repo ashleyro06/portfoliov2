@@ -1,0 +1,13 @@
+{
+  "name": "Skoren",
+  "image": "/projects/skoren.svg",
+  "featured": true,
+  "description": "Una plataforma de educación financiera y monitoreo de crédito que se conecta con servicios como DataCrédito, MetaMap, Persona y plataformas de pago. Ayuda a los usuarios a construir historial crediticio a través de cursos de educación financiera y les permite seguir y mejorar su puntaje de crédito en tiempo real.",
+  "platforms": ["web"],
+  "stack": [
+    { "name": "ReactJS", "icon": "custom:react" },
+    { "name": "NodeJS", "icon": "custom:node" },
+    { "name": "PostgreSQL", "icon": "custom:postgres" }
+  ],
+  "role": ["Desarrolladora Full-Stack"]
+}

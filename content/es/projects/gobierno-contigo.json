@@ -1,0 +1,16 @@
+{
+  "name": "Gobierno Contigo",
+  "image": "/projects/gobierno.svg",
+  "featured": true,
+  "description": "Aplicación móvil para los ciudadanos de Villavicencio que les permite reportar distintos tipos de incidentes en la ciudad. Cada reporte es asignado a una dependencia encargada de gestionar su solución. En la página administrativa, el alcalde y las dependencias pueden tener control sobre los reportes realizados, permitiéndoles dar respuesta y contactar a quien lo generó.",
+  "platforms": ["web", "móvil"],
+  "stack": [
+    { "name": "VueJS", "icon": "custom:vue" },
+    { "name": "Flutter", "icon": "custom:flutter" },
+    { "name": "GetX", "icon": "custom:getx" },
+    { "name": "Google Maps", "icon": "custom:maps" }
+  ],
+  "role": [
+    "Líder de proyecto", "Desarrolladora Front-end"
+  ]
+}

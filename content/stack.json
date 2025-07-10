@@ -1,19 +1,14 @@
 {
   "items": [
     {
-      "name": "Nuxt",
-      "link": "https://nuxt.com/",
-      "icon": "custom:nuxt"
-    },
-    {
       "name": "Vue",
       "link": "https://vuejs.org/",
       "icon": "custom:vue"
     },
     {
-      "name": "Nest",
-      "link": "https://nestjs.com/",
-      "icon": "custom:nest"
+      "name": "React",
+      "link": "https://react.dev/",
+      "icon": "custom:react"
     },
     {
       "name": "TailwindCSS",
@@ -21,54 +16,39 @@
       "icon": "custom:tailwind"
     },
     {
+      "name": "Flutter",
+      "link": "https://flutter.dev/",
+      "icon": "custom:flutter"
+    },
+    {
+      "name": "Typescript",
+      "link": "https://nestjs.com/",
+      "icon": "custom:typescript"
+    },
+    {
       "name": "Prisma",
       "link": "https://www.prisma.io/",
       "icon": "custom:prisma"
     },
     {
+      "name": "NodeJS",
+      "link": "https://nodejs.org/",
+      "icon": "custom:node"
+    },
+    {
+      "name": "Firebase",
+      "link": "https://firebase.google.com/",
+      "icon": "custom:firebase"
+    },
+    {
+      "name": "PostgreSQL",
+      "link": "https://www.postgresql.org/",
+      "icon": "custom:postgres"
+    },
+    {
       "name": "Vercel",
       "link": "https://vercel.com/",
       "icon": "custom:vercel"
-    },
-    {
-      "name": "Linear",
-      "link": "https://linear.app/",
-      "icon": "custom:linear"
-    },
-    {
-      "name": "Arc",
-      "link": "https://arc.net/",
-      "icon": "custom:arc"
-    },
-    {
-      "name": "Raycast",
-      "link": "https://raycast.com/",
-      "icon": "custom:raycast"
-    },
-    {
-      "name": "Notion",
-      "link": "https://www.notion.so/",
-      "icon": "custom:notion"
-    },
-    {
-      "name": "Cron",
-      "link": "https://calendar.cron.com/",
-      "icon": "custom:cron"
-    },
-    {
-      "name": "Spark",
-      "link": "https://sparkmailapp.com/",
-      "icon": "custom:spark"
-    },
-    {
-      "name": "1Password",
-      "link": "https://1password.com/",
-      "icon": "custom:onepassword"
-    },
-    {
-      "name": "Fig",
-      "link": "https://fig.io/",
-      "icon": "custom:fig"
     },
     {
       "name": "Figma",
@@ -84,11 +64,6 @@
       "name": "Illustrator",
       "link": "https://www.adobe.com/products/illustrator.html",
       "icon": "custom:illustrator"
-    },
-    {
-      "name": "Lightroom",
-      "link": "https://www.adobe.com/products/photoshop-lightroom.html",
-      "icon": "custom:lightroom"
     }
   ]
 }
