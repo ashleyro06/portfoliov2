@@ -40,10 +40,10 @@ const stack = await queryCollection('stack').first()
           />
         </p>
         <HomeCTA />
-        <HomeSocial
+        <!-- <HomeSocial
           style="--stagger: 3"
           data-animate
-        />
+        /> -->
 
         <Divider class="my-8" />
         <div class="flex flex-wrap gap-4 items-center justify-center">
